@@ -11,6 +11,8 @@ void setup()
   Serial.begin(9600);
   pinMode(5, INPUT); //D1
   pinMode(4, INPUT); //D2
+  pinMode(0, OUTPUT); //D3 red
+  pinMode(2, OUTPUT); //D4 green
   pinMode(2, OUTPUT);
 }
 
@@ -23,13 +25,15 @@ void loop()
 
   int gas = analogRead(4);
 
-  if(gas >= 512) {
+  if(gas == 1023) {
+    digitalWrite(0, LOW);
     digitalWrite(2, HIGH);
-    Serial.println("Gas-concentration: high");
+    Serial.println("Gas-concentration: LOW");
   }
   else {
+    digitalWrite(0, HIGH);
     digitalWrite(2, LOW);
-    Serial.println("Gas-concentration: low");
+    Serial.println("Gas-concentration: HIGH");
   }
   Serial.println();
   delay(2000);
