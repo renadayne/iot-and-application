@@ -1,0 +1,1 @@
+Same as Mini Module Assigments but control devices via Blynk
