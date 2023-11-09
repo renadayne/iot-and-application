@@ -21,5 +21,5 @@ Please complete the assignments in this order if you are a newcomer:
 5. Mini System
 
 If you have any concern, don't hesitate to contact me via:
-- Gmail: huytuduelist@gmail.com
+- [Gmail](https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhVJcJPQXsLDcRKPLDtmLWShKqqDwrPLBvXKQtRjBgDfSchWMFtRmTcrLBZkGJPPrNxPg)
 - [Facebook](https://www.facebook.com/pororo1001)
